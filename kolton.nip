@@ -644,9 +644,9 @@
 
 [name] >= istrune && [name] <= zodrune
 
-[name] == keyofhate # # [maxquantity] == 4
-[name] == keyofterror # # [maxquantity] == 4
-[name] == keyofdestruction # # [maxquantity] == 4
+[name] == keyofhate # # [maxquantity] == 6
+[name] == keyofterror # # [maxquantity] == 6
+[name] == keyofdestruction # # [maxquantity] == 6
 
 [name] == diablo'shorn
 [name] == mephisto'sbrain
