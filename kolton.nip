@@ -79,7 +79,7 @@
 [name] == cuirass && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // duriel's shell eth
 [name] == tigulatedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 180 // crow caw eth
 [name] == mesharmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 220 // shaftstop eth
-[name] == russetarmor && [quality] == unique // skullder's
+//[name] == russetarmor && [quality] == unique // skullder's
 [name] == templarcoat && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // guardian angel eth
 [name] == sharktootharmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 220 // toothrow
 [name] == krakenshell && [quality] == unique && [flag] == ethereal # [defense] >= 2500 // toothrow x1
@@ -184,13 +184,13 @@
 [name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
 [name] == ogregauntlets && [quality] == unique && [flag] != ethereal # [enhanceddamage] == 60 && [strength] == 20 && [defense] == 281 // steelrend
 //[name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
-[name] == heavygloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // bloodfist
-[name] == sharkskingloves && [quality] == unique # [enhanceddefense] == 20 // && [defense] == 56 // bloodfist x1
-[name] == vampirebonegloves && [quality] == unique # [enhanceddefense] == 20 && [defense] == 88 // bloodfist x2
+//[name] == heavygloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // bloodfist
+//[name] == sharkskingloves && [quality] == unique # [enhanceddefense] == 20 // && [defense] == 56 // bloodfist x1
+//[name] == vampirebonegloves && [quality] == unique # [enhanceddefense] == 20 && [defense] == 88 // bloodfist x2
 [name] == chaingloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 30 && [itemmagicbonus] == 40 // chance guard
-[name] == lightgauntlets && [quality] == unique && [flag] != ethereal // magefist
-[name] == battlegauntlets && [quality] == unique // && [defense] == 71 // magefist x1
-[name] == crusadergauntlets && [quality] == unique // magefist x2
+//[name] == lightgauntlets && [quality] == unique && [flag] != ethereal // magefist
+//[name] == battlegauntlets && [quality] == unique // && [defense] == 71 // magefist x1
+//[name] == crusadergauntlets && [quality] == unique // magefist x2
 //[name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 # [maxquantity] == 1 // frostburn
 
 //          ==rare==
@@ -241,11 +241,11 @@
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal // # [damageresist] == 15 && [vitality] == 40 // verdungo's hearty cord
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 // string of ears
 //[name] == battlebelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 // snowclash
-[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
-[name] == heavybelt && [quality] == unique && [flag] != ethereal // goldwrap
-[name] == battlebelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // && [defense] == 92 // goldwrap x1
-[name] == trollbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [defense] == 130 // goldwrap x2
-[name] == sharkskinbelt && [quality] == unique && [flag] != ethereal // razor tail
+//[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
+//[name] == heavybelt && [quality] == unique && [flag] != ethereal // goldwrap
+//[name] == battlebelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // && [defense] == 92 // goldwrap x1
+//[name] == trollbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [defense] == 130 // goldwrap x2
+//[name] == sharkskinbelt && [quality] == unique && [flag] != ethereal // razor tail
 //          ==rare==
 [type] == belt && [quality] == rare && [flag] != ethereal # [fhr] == 24 && [strength] >= 20 && [maxhp] >= 50
 [type] == belt && [quality] == rare && [flag] != ethereal # [fhr] == 24 && [strength] >= 10 && [maxhp] >= 30 && [itemgoldbonus] >= 70
@@ -616,6 +616,7 @@
 [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire
 
 //[name] == flawlessemerald
+//[name] == flawlessamethyst # # [maxquantity] == 3
 //[name] == flawlessdiamond # # [maxquantity] == 3
 
 //[name] == elrune # # [MaxQuantity] == 1
@@ -624,15 +625,15 @@
 //[name] == nefrune
 //[name] == ethrune # # [MaxQuantity] == 1
 //[name] == ithrune # # [MaxQuantity] == 1
-//[name] == talrune # # [MaxQuantity] == 1
+//[name] == talrune # # [MaxQuantity] == 3
 //[name] == ralrune # # [MaxQuantity] == 1
-//[name] == ortrune # # [MaxQuantity] == 2
-//[name] == thulrune # # [MaxQuantity] == 2
-//[name] == amnrune # # [MaxQuantity] == 1
+//[name] == ortrune # # [MaxQuantity] == 3
+//[name] == thulrune # # [MaxQuantity] == 3
+//[name] == amnrune # # [MaxQuantity] == 3
 //[name] == solrune # # [MaxQuantity] == 2
 //[name] == shaelrune # # [MaxQuantity] == 1
 //[name] == dolrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 2
+//[name] == helrune # # [MaxQuantity] == 3
 //[name] == iorune # # [MaxQuantity] == 1
 //[name] == lumrune # # [MaxQuantity] == 1
 //[name] == korune # # [MaxQuantity] == 1
@@ -644,9 +645,9 @@
 
 [name] >= istrune && [name] <= zodrune
 
-[name] == keyofhate # # [maxquantity] == 6
-[name] == keyofterror # # [maxquantity] == 6
-[name] == keyofdestruction # # [maxquantity] == 6
+[name] == keyofhate # # [maxquantity] == 3
+[name] == keyofterror # # [maxquantity] == 3
+[name] == keyofdestruction # # [maxquantity] == 3
 
 [name] == diablo'shorn
 [name] == mephisto'sbrain
@@ -715,29 +716,29 @@
 // --tal rasha's--
 //[name] == swirlingcrystal && [quality] == set # # [maxquantity] == 1
 //[name] == deathmask && [quality] == set # [defense] == 131
-[name] == lacqueredplate && [quality] == set
+//[name] == lacqueredplate && [quality] == set
 [name] == amulet && [quality] == set
-[name] == meshbelt && [quality] == set # [itemmagicbonus] >= 13
+//[name] == meshbelt && [quality] == set # [itemmagicbonus] == 15
 
 // --aldur's--
-//[name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
+[name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
 
 // --immortal king's--
 //[name] == warboots && [quality] == set
-[name] == warbelt && [quality] == set
+//[name] == warbelt && [quality] == set
 //[name] == ogremaul && [quality] == set
-[name] == avengerguard && [quality] == set # [itemmagicbonus] == 40 && [defense] == 175
+//[name] == avengerguard && [quality] == set # [itemmagicbonus] == 40 && [defense] == 175
 
 // --trang-oul's--
-[name] == heavybracers && [quality] == set # [defense] == 74
-[name] == trollbelt && [quality] == set # [maxmana] == 50 && [defense] == 166
-[name] == bonevisage && [quality] == set # [defense] == 257
+[name] == heavybracers && [quality] == set # [defense] >= 70
+//[name] == trollbelt && [quality] == set # [maxmana] == 50 && [defense] == 166
+//[name] == bonevisage && [quality] == set # [defense] == 257
 
 // griswold's
 
-[name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
-[name] == corona && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
-[name] == vortexshield && [quality] == set # [defense] == 333
+//[name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
+//[name] == corona && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
+//[name] == vortexshield && [quality] == set # [defense] == 333
 
 // unsorted shit
 
